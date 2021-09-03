@@ -1,0 +1,108 @@
+body {
+    background-color: #efe2ba;
+}
+
+.navbar-brand {
+    font-family: 'Sacramento', cursive;
+}
+
+.logo-image {
+    width:150px;
+    border-radius: 5%;
+    position:absolute;
+    z-index:1;
+    margin-left:0.5%;
+}
+
+.navbar {
+    background-color: #d79922;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.card-divider {
+    background-color: #F13C20;
+    text-align: center;
+    vertical-align: middle;
+    height:50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:#efe2ba;
+    font-size:30px;
+}
+
+.card-row {
+    background-color: #c5cbe3;
+}
+.card-div {
+    margin:auto;
+    background-color: #c5cbe3;
+}
+
+.card {
+    margin: 30px auto 30px auto;
+}
+
+.btn-primary {
+    background-color: #4056a1;
+    border-color: #efe2ba;
+    color:#efe2ba;
+}
+
+footer {
+    background-color:#d79922;
+    padding: 30px;
+    text-align: center;
+    position:relative;
+    padding:50px 0 20px;
+}
+
+.emailButton {
+    background-color: #F13C20;
+    color: #EAF6F6;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.emailButton:hover {
+    background-color:#efe2ba;
+    border: 2px solid #f13c20;
+    color: black;
+  }
+
+  a:hover {
+    color: #f13c20;
+}
+
+.footer-link {
+    margin: 10px 20px 10px;
+    color: #efe2ba;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size:15px;
+}
+
+@media (max-width: 1028px) {
+    .logo-image {
+        width:10%;
+        border-radius: 5%;
+        /* position:absolute; */
+        z-index:1;
+        margin-left:0.5%;
+    }
+  }
+  
+  
+  

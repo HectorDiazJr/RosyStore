@@ -1,108 +1,142 @@
 body {
-    background-color: #efe2ba;
+  background-color: #E3CDC1;
 }
 
 .navbar-brand {
-    font-family: 'Sacramento', cursive;
+  padding-top:0px;
+  margin-top: 0px;
+  height:80px;
 }
 
 .logo-image {
-    width:150px;
-    border-radius: 5%;
-    position:absolute;
-    z-index:1;
-    margin-left:0.5%;
+  width: 7%;
+  border-radius: 5%;
+  position: absolute;
+  z-index: 1;
 }
 
 .navbar {
-    background-color: #d79922;
+  background-color: #BA7967
 }
 
 h1 {
-    font-family: 'Sacramento', cursive;
-    font-size: 60px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
+  font-family: "Sacramento", cursive;
+  font-size: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #BA7967;
+}
+
+h5 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+}
+
+.aboutUs {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  text-align: center;
+  font-size:30px;
 }
 
 .card-divider {
-    background-color: #F13C20;
-    text-align: center;
-    vertical-align: middle;
-    height:50px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    color:#efe2ba;
-    font-size:30px;
+  background-color: #FFCB74;
+  text-align: center;
+  vertical-align: middle;
+  height: 50px;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #BA7967;
+  font-size: 30px;
 }
 
 .card-row {
-    background-color: #c5cbe3;
+  background-color: #5E6F64;
 }
 .card-div {
-    margin:auto;
-    background-color: #c5cbe3;
+  margin: auto;
+  background-color: #5E6F64;
 }
 
 .card {
-    margin: 30px auto 30px auto;
+  margin: 30px auto 30px auto;
 }
 
 .btn-primary {
-    background-color: #4056a1;
-    border-color: #efe2ba;
-    color:#efe2ba;
+  background-color: #5E6F64;
+  border-color: #fff8d9;
+  color: #fff8d9;
 }
 
 footer {
-    background-color:#d79922;
-    padding: 30px;
-    text-align: center;
-    position:relative;
-    padding:50px 0 20px;
+  background-color: #BA7967;
+  padding: 30px;
+  text-align: center;
+  position: relative;
+  padding: 50px 0 20px;
 }
 
 .emailButton {
-    background-color: #F13C20;
-    color: #EAF6F6;
-    height: 40px;
-    width: 120px;
-    border: none;
-    border-radius: 8px;
-    margin-bottom: 20px;
+  background-color: #f13c20;
+  color: #eaf6f6;
+  height: 40px;
+  width: 120px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.footer-icon {
+  padding: 8px;
+}
+
+.footer-icon:hover {
+  color: #FFCB74;
 }
 
 .emailButton:hover {
-    background-color:#efe2ba;
-    border: 2px solid #f13c20;
-    color: black;
-  }
+  background-color: #BA7967;
+  border: 2px solid #FFCB74;
+  color: black;
+}
 
-  a:hover {
-    color: #f13c20;
+.more-details:hover {
+  background-color: #FFCB74;
+  border:#BA7967;
+  color:#BA7967;
+}
+
+a:hover {
+  color: #FFCB74;
 }
 
 .footer-link {
-    margin: 10px 20px 10px;
-    color: #efe2ba;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
+  margin: 10px 20px 10px;
+  color: #efe2ba;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
 }
 
 .copyright {
-    margin-top: 20px;
-    font-size:15px;
+  margin-top: 20px;
+  font-size: 15px;
 }
 
 @media (max-width: 1028px) {
-    .logo-image {
-        width:10%;
-        border-radius: 5%;
-        /* position:absolute; */
-        z-index:1;
-        margin-left:0.5%;
-    }
+  .logo-image {
+    width: 20%;
+    border-radius: 5%;
+    /* position:absolute; */
+    /* z-index: 1;
+    margin-left: 20%;
+    padding-bottom: 20px;
+    margin-top:0px; */
   }
-  
-  
-  
+  h1 {
+      padding-top: 50px;
+  }
+  h5 {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: bold;
+  }
+}

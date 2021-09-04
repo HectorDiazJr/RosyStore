@@ -19,12 +19,16 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Parisienne&family=Sacramento&family=Style+Script&family=WindSong:wght@400;500&display=swap"
     rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 
   <link rel="shortcut icon" type="image/jpeg" href="images/favicon.jpg" />
 
   <link rel="stylesheet" href="css/styles.css">
 
   <title>home aesthetics etc</title>
+
+  <!-- font awesome icon link -->
+  <script src="https://kit.fontawesome.com/d42ce4be08.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -32,20 +36,26 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img class="logo-image"src="images/favicon.jpg"></a>
+        <a class="navbar-brand" href="#"><img class="logo-image"src="images/favicon.jpg" alt="website logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#featured">Featured Items</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#HomeDecor">Home Decor</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item">
+              <a class="nav-link" href="#fashion">Fashion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutUs">About Us</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Dropdown
@@ -58,12 +68,12 @@
                 </li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
-            </li>
+            </li> -->
           </ul>
-          <form class="d-flex">
+          <!-- <form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+          </form> -->
         </div>
       </div>
     </nav>
@@ -122,7 +132,7 @@
 
   <div class="row">
 
-    <div class="col-lg-12 card-divider">
+    <div class="col-lg-12 card-divider" id="featured">
       Featured Items for Sale
     </div>
   </div>
@@ -131,57 +141,179 @@
 
     <div class="col-lg-3 col-md-6 col-sm-12 card-div">
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="images/featured1.jpeg" class="card-img-top" alt="featured item for sale">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Add to Cart</a>
+          <h5 class="card-title">Stamped book fall harvest pumpkin autumn flower Table Decor Farmhouse boho Craft
+          </h5>
+          <p class="card-text">These are actual used books that have been painted. Flowers, pumpkin and Ribbon are new</p>
+          <a href="https://pay.ebay.com/rgxo?action=view&sessionid=1240300728" class="more-details btn btn-primary">Buy Now</a>
         </div>
       </div>
     </div>
 
     <div class="col-lg-3 col-md-6 col-sm-12 card-div">
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="images/featured-2.jpeg" class="card-img-top" alt="featured item for sale">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Add to Cart</a>
+          <h5 class="card-title">Boho Table Runner</h5>
+          <p class="card-text">Hobby Lobby table runner boho Home Decor patio outdoor dining Terracotta Tassel</p>
+          <a href="https://pay.ebay.com/rgxo?action=view&sessionid=1240705950" class="more-details btn btn-primary">Buy Now</a>
         </div>
       </div>
     </div>
 
     <div class="col-lg-3 col-md-6 col-sm-12 card-div">
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="images/featured3.jpeg" class="card-img-top" alt="featured item for sale">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Add to Cart</a>
+          <h5 class="card-title">Boho Scandinavian Wall Decor</h5>
+          <p class="card-text">Wall decor frame canvas dessert boho Scandinavian natural wood landscape</p>
+          <a href="https://pay.ebay.com/rgxo?action=view&sessionid=1240520613" class="more-details btn btn-primary">Buy Now</a>
         </div>
       </div>
     </div>
 
     <div class="col-lg-3 col-md-6 col-sm-12 card-div">
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="images/featured4.jpeg" class="card-img-top" alt="featured item for sale">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Add to Cart</a>
+          <h5 class="card-title">Boho Scandinavian Catch All</h5>
+          <p class="card-text">Dough bowl tray trinket natural wood Boho Scandinavian candle catch all</p>
+          <a href="#" class="more-details btn btn-primary">Buy Now</a>
         </div>
       </div>
     </div>
   </div>
 
+  <div class="row">
+
+    <div class="col-lg-12 card-divider" id="HomeDecor">
+      Home Decor
+    </div>
+  </div>
+
+  <div class="row card-row">
+
+    <div class="col-lg-3 col-md-6 col-sm-12 card-div">
+      <div class="card" style="width: 18rem;">
+        <img src="images/s-l1600.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Stamped book fall harvest pumpkin autumn flower Table Decor Farmhouse boho Craft
+          </h5>
+          <p class="card-text">These are actual used books that have been painted. Flowers, pumpkin and Ribbon are new</p>
+          <a href="https://pay.ebay.com/rgxo?action=view&sessionid=1240300728" class="more-details btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-12 card-div">
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="more-details btn btn-primary">More Details</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-12 card-div">
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="more-details btn btn-primary">More Details</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-12 card-div">
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="more-details btn btn-primary">More Details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+
+    <div class="col-lg-12 card-divider" id="fashion">
+      Fashion
+    </div>
+  </div>
+
+  <div class="row card-row">
+
+    <div class="col-lg-3 col-md-6 col-sm-12 card-div">
+      <div class="card" style="width: 18rem;">
+        <img src="images/s-l1600.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Stamped book fall harvest pumpkin autumn flower Table Decor Farmhouse boho Craft
+          </h5>
+          <p class="card-text">These are actual used books that have been painted. Flowers, pumpkin and Ribbon are new</p>
+          <a href="https://pay.ebay.com/rgxo?action=view&sessionid=1240300728" class="more-details btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-12 card-div">
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="more-details btn btn-primary">More Details</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-12 card-div">
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="more-details btn btn-primary">More Details</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-12 card-div">
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="more-details btn btn-primary">More Details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+
+    <div class="col-lg-12" id="aboutUs">
+      <h1>About Us...</h1>
+      <p class="aboutUs">This is where we talk about ourselves</p>
+    </div>
+  </div>
+
   <footer>
-    <form class="email-me" method="post" action="mailto:rosy0607@gmail.com">
+
+    <!-- contact me email button -->
+    <!-- <form class="email-me" method="post" action="mailto:rosy0607@gmail.com">
       <input class="emailButton" type="submit" value="CONTACT ME" />
-    </form>
+    </form> -->
     <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/in/hector-diaz-523b761b8/">LinkedIn</a>
-      <a class="footer-link" href="https://twitter.com/gtoe1103">Twitter</a>
-      <a class="footer-link" href="https://github.com/HectorDiazJr">Github</a>
+      <i class="footer-icon fas fa-envelope fa-2x"></i> 
+      <i class="footer-icon fab fa-facebook fa-2x"></i>
+      <i class="footer-icon fab fa-instagram fa-2x"></i>
+      <i class="footer-icon fab fa-ebay fa-2x"></i>
       <p class="copyright">© 2021 home aesthetics etc.</p>
     </div>
   </footer>

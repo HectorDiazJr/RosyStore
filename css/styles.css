@@ -28,19 +28,7 @@ h1 {
   color: #BA7967;
 }
 
-h5 {
-  font-family: 'Dancing Script', cursive;
-  font-weight: bold;
-}
-
-.aboutUs {
-  font-family: 'Dancing Script', cursive;
-  font-weight: bold;
-  text-align: center;
-  font-size:30px;
-}
-
-.card-divider {
+.headingStyle {
   background-color: #FFCB74;
   text-align: center;
   vertical-align: middle;
@@ -50,9 +38,46 @@ h5 {
   font-size: 30px;
 }
 
+.carouseH51 {
+  color:white;
+  font-weight: bold;
+  font-size:30px;
+}
+
+.carouseH52 {
+  color:white;
+  font-weight: bold;
+  font-size:30px;
+}
+
+.carouselText1 {
+  color:white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.carouselText2 {
+  color:white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.carouseH53 {
+  color:black;
+  font-weight: bold;
+  font-size:30px;
+}
+
+.carouselText3 {
+  color:black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 .card-row {
   background-color: #5E6F64;
 }
+
 .card-div {
   margin: auto;
   background-color: #5E6F64;
@@ -68,6 +93,66 @@ h5 {
   color: #fff8d9;
 }
 
+.accordion-button {
+  height: 80px;
+}
+
+.fashionJewelryButton:hover{
+  background-color: #FFCB74;
+  border-color: #FFCB74;
+  color:#5E6F64;
+}
+
+.fashionJewelryDetail {
+  background-color: #FFCB74!important;
+  border-color: #FFCB74!important;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #BA7967!important;
+  font-size: 30px;
+  text-align: center;
+  border-color:#FFCB74;
+  display:block;
+  height: 80px;
+}
+
+.whatIs {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.whatIs:hover {
+  color:#5E6F64;
+}
+
+.jewelryDetail {
+  font-size: 20px;
+  font-family: 'Dancing Script', cursive;
+}
+
+h5 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  color:black;
+  font-size: 30px;
+}
+
+.card-text {
+  color:black;
+  font-style: "Open Sans Condensed", sans-serif;
+  font-style: bold;
+  font-size: 15px;
+}
+
+.aboutUs {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  text-align: center;
+  font-size:30px;
+  color: #BA7967;
+  padding-bottom: 40px;
+}
+
+
 footer {
   background-color: #BA7967;
   padding: 30px;
@@ -76,28 +161,17 @@ footer {
   padding: 50px 0 20px;
 }
 
-.emailButton {
-  background-color: #f13c20;
-  color: #eaf6f6;
-  height: 40px;
-  width: 120px;
-  border: none;
-  border-radius: 8px;
-  margin-bottom: 20px;
-}
-
 .footer-icon {
   padding: 8px;
+  color:#E3CDC1
 }
 
 .footer-icon:hover {
   color: #FFCB74;
 }
 
-.emailButton:hover {
-  background-color: #BA7967;
-  border: 2px solid #FFCB74;
-  color: black;
+.copyright{
+  color:#E3CDC1;
 }
 
 .more-details:hover {
@@ -137,6 +211,17 @@ a:hover {
   }
   h5 {
     font-family: "Open Sans Condensed", sans-serif;
-    font-weight: bold;
+  }
+
+  p {
+    font-size:20px;
+  }
+
+  .fashionJewelryDetail {
+    height: 175px;
+  }
+
+  .accordion-button {
+    height: 80px;
   }
 }
